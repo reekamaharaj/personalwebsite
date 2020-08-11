@@ -5,6 +5,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "firebase": "^7.17.2",
     "svelte": "^3.24.0"
   },
   "devDependencies": {
