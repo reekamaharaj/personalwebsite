@@ -1,4 +1,6 @@
 {
-  "extends": "@snowpack/app-scripts-svelte",
-  "plugins": []
+    "extends": "@snowpack/app-scripts-svelte",
+    "plugins": [
+        ["@snowpack/plugin-build-script", { "cmd": "postcss", "input": [".css"], "output": [".css"] }]
+    ]
 }
