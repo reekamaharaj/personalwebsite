@@ -6,13 +6,18 @@
   },
   "dependencies": {
     "firebase": "^7.17.2",
-    "svelte": "^3.24.0"
+    "svelte": "^3.24.0",
+    "svelte-routing": "^1.4.2",
+    "tailwindcss": "^1.6.2"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.8.3",
+    "@snowpack/plugin-build-script": "^2.0.4",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/svelte": "^3.0.0",
     "jest": "^26.2.2",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
     "snowpack": "^2.7.7",
     "svelte-check": "^0.1.59"
   }
