@@ -1,12 +1,12 @@
 # Notes
 Things researched while planning/creating site
 
+---
 - [Steps for planning a new website](https://www.hallaminternet.com/9-steps-for-planning-a-new-website/)
     - Helped with the initial planning outline
-    - Considered what I want on the site
-    - Notes on why a user would be on the site
-        - Why they would want
-        - What I would want them to leave with
+        - Q: What the intent is for the site. What is being offered.
+        - Q: Why a user is on the site. What do they expect/want.
+        - Q: What should the user leave with.
     - Content inventory for redevelopment
         - Get an idea of what is currently there
         - Make cuts
@@ -22,13 +22,7 @@ Things researched while planning/creating site
         - What will a user do on the site
         - The most important take away from the site
     - Chooseing content management system to use (Framework, stack... what will it be built from)
-        - Svelte, JS, TS, Firebase hosting, Firestore DB
-        - Svelte: To learn through building an app
-        - JS, TS: Currently comfortable with these.
-        - Snowpack: To learn and understand more. Get a better understanding of what a bundler does. Comparing experiences with different methods will help me understand the bigger picture of what a bundler can do. How they work, what is typical, what is specifically for one bundler over another.
-        - Firebase: Potential for growth with the other features avaliable. With a built site, it would be easy to see how other features work, why they would be used, and also to the potential new additions Google will inevitably have.
-            - Firebase hosting: Loads faster than Heroku. Easy setup. Domain is with GoogleDomains
-            - FireStore: To learn through building an app.
+---
 - [SEO tips](https://www.hallaminternet.com/web-design-nottingham-4-seo-tips/) *Rabbit Hole Article*
     - Not necessarily important to my particular site. Neat to read though, and learnt some stuff
         - Why website structure matters
@@ -41,7 +35,7 @@ Things researched while planning/creating site
 
 > Robots.txt – Creating a robots.txt file allows you to specify any site directories or pages that you don’t want Google to index or crawl.
 
-First time I've read anything about Robots.txt. I had no idea what it was, why it existed... enlightening
+    First time I've read anything about Robots.txt. I had no idea what it was, why it existed... enlightening
 
 ## Resources/Tools
 - [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/#spider-features): SEO Tool
