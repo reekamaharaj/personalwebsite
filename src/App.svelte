@@ -23,7 +23,7 @@
         </Route>
         <Route>
             <!-- No path === Default Page (404? Homepage? Up to you.) -->
-            <Home />
+            <!-- <Home /> -->
         </Route>
     </div>
 </Router>
