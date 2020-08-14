@@ -1,10 +1,10 @@
-<nav class="flex justify-between w-full bg-blue-500 text-white p-4">
+<nav class="flex justify-between w-full bg-blue-500 text-white p-3">
     <a href="/">
         <span class="font-semibold text-xl tracking-tight">Relax. It's a Syntax thing</span>
     </a>
-    <a class="block md:text-white mr-4" href="https://www.linkedin.com/in/reekamaharaj/" target="_blank" >LinkedIn</a>
-            <a class="block md:text-white mr-4" href="https://github.com/reekamaharaj" target="_blank" >Github</a>
-            <a class="block md:text-white mr-4" href="#" target="_blank" >Resume</a>
+    <a class="block md:text-white mr-4" href="https://www.linkedin.com/in/reekamaharaj/" target="_blank" ><i class="fab fa-linkedin text-3xl"></i></a>
+            <a class="block md:text-white mr-4" href="https://github.com/reekamaharaj" target="_blank" ><i class="fab fa-github text-3xl"></i></a>
+            <a class="block md:text-white mr-4" href="#" target="_blank" ><i class="far fa-file text-3xl"></i></a>
     <div class="md:items-center md:w-auto flex">
         <div class="md:flex hidden">
             <a class="block md:text-white mr-4" href="/">Home</a>
