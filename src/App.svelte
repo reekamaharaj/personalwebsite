@@ -5,10 +5,12 @@
     import Home from "./pages/Home.svelte";
     import About from "./pages/About.svelte";
     import Navbar from "./components/Navbar.svelte";
+    import Header from "./components/Header.svelte";
 </script>
 
 <Router>
     <Navbar/>
+    <Header/>
     <div class="flex items-center justify-center h-64">
         <Route path="portfolio">
             <Portfolio />
