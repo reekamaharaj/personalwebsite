@@ -6,12 +6,14 @@
     import About from "./pages/About.svelte";
     import Navbar from "./components/Navbar.svelte";
     import Header from "./components/Header.svelte";
+    import Footer from "./components/Footer.svelte";
 </script>
 
 <Router>
-    <Navbar/>
-    <Header/>
-    <div class="flex items-center justify-center h-64">
+
+    <div class="h-64">
+        <Navbar />
+        <Header />
         <Route path="portfolio">
             <Portfolio />
         </Route>
@@ -23,7 +25,9 @@
         </Route>
         <Route>
             <!-- No path === Default Page (404? Homepage? Up to you.) -->
-            <!-- <Home /> -->
+            <Home />
         </Route>
+        <Footer />
     </div>
+
 </Router>

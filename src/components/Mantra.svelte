@@ -1,5 +1,5 @@
         <style>
-            body {
+            .container {
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
                 font-smoothing: antialiased;
@@ -8,85 +8,87 @@
             /* text: {       } */
             #brackets {
                 font-family: 'Dunbar';
-                font-size: 521px;
+                font-size: 260px;
                 position: absolute;
-                left: 2px;
-                top: -120px;
+                left: 1px;
+                top: -60px;
                 font-variation-settings:
-                    'wght'100,
-                    'XHGT'574,
-                    'opsz'36;
+                    'wght'50,
+                    'XHGT'287,
+                    'opsz'18;
             }
 
             /* text: Relax */
             #relax {
                 font-family: 'Dunbar';
-                font-size: 169px;
+                font-size: 84px;
                 position: absolute;
-                left: 123px;
-                top: 143px;
+                left: 61px;
+                top: 71px;
                 font-variation-settings:
-                    'wght'200,
-                    'XHGT'353,
-                    'opsz'36;
+                    'wght'100,
+                    'XHGT'176,
+                    'opsz'18;
             }
 
             /* text: it's a */
             #itsa {
                 font-family: 'Dunbar';
-                font-size: 100px;
+                font-size: 50px;
                 position: absolute;
-                left: 458px;
-                top: 207px;
+                left: 229px;
+                top: 103px;
                 font-variation-settings:
-                    'wght'200,
-                    'XHGT'353.00,
-                    'opsz'36;
+                    'wght'100,
+                    'XHGT'176,
+                    'opsz'18;
             }
 
             /* text: syntax */
             #syntax {
                 font-family: 'Dunbar';
-                font-size: 154px;
+                font-size: 77px;
                 position: absolute;
-                left: 349px;
-                top: 256px;
+                left: 174px;
+                top: 128px;
                 font-variation-settings:
-                    'wght'651.5151598382544,
-                    'XHGT'500,
-                    'opsz'36;
+                    'wght'325,
+                    'XHGT'250,
+                    'opsz'18;
             }
 
             /* text: thing */
             #thing {
                 font-family: 'Dunbar';
-                font-size: 100px;
+                font-size: 50px;
                 position: absolute;
-                left: 646px;
-                top: 401px;
+                left: 323px;
+                top: 200px;
                 font-variation-settings:
-                    'wght'200,
-                    'XHGT'353.00,
-                    'opsz'36;
+                    'wght'100,
+                    'XHGT'176,
+                    'opsz'18;
             }
 
             /* text: My coding mantra */
             #mantra {
                 font-family: 'Dunbar';
-                font-size: 33px;
+                font-size: 16px;
                 position: absolute;
-                left: 615px;
-                top: 567px;
+                left: 307px;
+                top: 283px;
                 font-variation-settings:
-                    'wght'200,
-                    'XHGT'353.00,
-                    'opsz'36;
+                    'wght'100,
+                    'XHGT'176,
+                    'opsz'18;
             }
         </style>
-
-        <div id="brackets">{'{'}       {'}'}</div>
+<div class="container">
+    <div id="brackets">{'{'}       {'}'}</div>
         <div id="relax">Relax</div>
         <div id="itsa">it's a</div>
         <div id="syntax">syntax</div>
         <div id="thing">thing</div>
         <div id="mantra">My coding mantra</div>
+</div>
+

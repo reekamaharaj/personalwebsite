@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>CodePen - Resize with Scale</title>
+        <link href="https://fonts.typedetail.com/fonts.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <style>
+            #brackets {
+                font-family: "Dunbar";
+                font-size: 521px;
+                position: absolute;
+                left: 2px;
+                top: 4px;
+                font-variation-settings: "wght"100, "XHGT"574, "opsz"36;
+            }
+
+            /* text: Relax */
+            #relax {
+                font-family: "Dunbar";
+                font-size: 169px;
+                position: absolute;
+                left: 123px;
+                top: 143px;
+                font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+            }
+
+            /* text: it's a */
+            #itsa {
+                font-family: "Dunbar";
+                font-size: 100px;
+                position: absolute;
+                left: 458px;
+                top: 207px;
+                font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+            }
+
+            /* text: syntax */
+            #syntax {
+                font-family: "Dunbar";
+                font-size: 154px;
+                position: absolute;
+                left: 349px;
+                top: 256px;
+                font-variation-settings: "wght"651.5151598382544, "XHGT"500, "opsz"36;
+            }
+
+            /* text: thing */
+            #thing {
+                font-family: "Dunbar";
+                font-size: 100px;
+                position: absolute;
+                left: 646px;
+                top: 401px;
+                font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+            }
+
+            /* text: My coding mantra */
+            #mantra {
+                font-family: "Dunbar";
+                font-size: 33px;
+                position: absolute;
+                left: 615px;
+                top: 567px;
+                font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+            }
+
+            .very-specific-design {
+                width: 1000px;
+                height: 600px;
+                padding: 60px;
+                position: relative;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                -webkit-transform-origin: center center;
+                transform-origin: center center;
+            }
+
+            .scaleable-wrapper {
+                resize: both;
+                position: relative;
+                height: 400px;
+            }
+
+            .ui-resizable-se {
+                width: 20px;
+                height: 20px;
+                background: black;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <!-- partial:index.partial.html -->
+        <div class="scaleable-wrapper" id="scaleable-wrapper">
+            <div class="very-specific-design" id="very-specific-design">
+                <!-- <div id="brackets">{'{'} {'}'}</div> -->
+                <div id="brackets">{       }</div>
+                <div id="relax">Relax</div>
+                <div id="itsa">it's a</div>
+                <div id="syntax">syntax</div>
+                <div id="thing">thing</div>
+                <div id="mantra">My coding mantra</div>
+            </div>
+        </div>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+        <script>
+            var $el = $("#very-specific-design");
+            var elHeight = $el.outerHeight();
+            var elWidth = $el.outerWidth();
+
+            var $wrapper = $("#scaleable-wrapper");
+
+            $wrapper.resizable({
+                resize: doResize
+            });
+
+            function doResize(event, ui) {
+
+                var scale, origin;
+
+                scale = Math.min(
+                    ui.size.width / elWidth,
+                    ui.size.height / elHeight
+                );
+
+                $el.css({
+                    transform: "translate(-50%, -50%) " + "scale(" + scale + ")"
+                });
+
+            }
+
+            var starterData = {
+                size: {
+                    width: $wrapper.width(),
+                    height: $wrapper.height()
+                }
+            }
+            doResize(null, starterData);
+        </script>
+
+    </body>
+
+</html>
