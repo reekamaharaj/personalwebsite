@@ -30,6 +30,14 @@
             East Texas and North Texas. I hope to build a web application that
             will aid cat rescue logistics. I am an artist Doodlejutsu:
             https://doodlejutsu.com/
+
+
+- What I'm learning
+- How I am learning
+- How I stumbled, but how it helped
+- Learning process
+- Notes while building something new
+
         </p>
 
     </section>

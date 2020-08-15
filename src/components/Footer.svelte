@@ -7,6 +7,6 @@
                 <a href="/blog" class="uppercase px-3">Blog</a>
                 <a href="/about" class="uppercase px-3">About</a>
             </div>
-            <div class="uppercase pb-6">&copy; reekamaharaj.com</div>
+            <div class="uppercase pb-6">Email: reekamaharaj@gmail.com</div>
         </div>
     </footer>

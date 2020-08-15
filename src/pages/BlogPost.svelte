@@ -10,21 +10,29 @@
             </a>
             <div class="bg-white flex flex-col justify-start p-6">
 
-                <h1 class="text-2xl font-bold pb-3">Title</h1>
-                <p class="pb-3">Posty post for things</p>
+                <h1 class="text-2xl font-bold pb-3">Hi! I'm Reeka!</h1>
+                <p class="pb-3">I had a short career in Civil Engineering before I decided to take a step back
+                    to reevaluate my life goals. I took some time to volunteer with nonprofits,
+                    substitute for my public school district, become a support group leader and
+                    start a small art business. Through each option, there was a connecting factor.
+                    The importance of software development. I saw gaps that could be filled with the
+                    right software application. I got tired of saying, "if only someone would
+                    build..." Why wait for someone else to build it? I could do that, I just needed
+                    to learn how. So I started learning on my own but soon realized that I needed
+                    some guidance. With so much out there, I didn't know what I should concentrate
+                    on. I enrolled and completed the UT Austin Full Stack Web Development program
+                    and am ready to start my journey as a junior web developer. Other things about
+                    me. I enjoy to draw and have a small art business. More indepth
+                    description/introducation Civil Engineering career Reason for the career shift</p>
+        </article>
+        <article class="flex flex-col shadow my-4">
+
+            <div class="bg-white flex flex-col justify-start p-6">
+
+                <h1 class="text-2xl font-bold pb-3">Testemonials</h1>
+                <p class="pb-3">Maybe a side scroller with </p>
         </article>
 
-
-        <div class="w-full flex pt-6">
-            <a href="#" class="w-1/2 bg-white shadow hover:shadow-md text-left p-6">
-                <p class="text-lg text-blue-800 font-bold flex items-center"><i class="fas fa-arrow-left pr-1"></i> Previous</p>
-                <p class="pt-2">Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</p>
-            </a>
-            <a href="#" class="w-1/2 bg-white shadow hover:shadow-md text-right p-6">
-                <p class="text-lg text-blue-800 font-bold flex items-center justify-end">Next <i class="fas fa-arrow-right pl-1"></i></p>
-                <p class="pt-2">Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</p>
-            </a>
-        </div>
     </section>
 
     <!-- Sidebar Section -->
