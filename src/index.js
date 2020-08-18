@@ -4,7 +4,7 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const appFB = firebase.initializeApp(firebaseConfig);
-const fireStore = appFB.firestore();
+export const fireStore = appFB.firestore();
 
 var app = new App({
     target: document.body,
