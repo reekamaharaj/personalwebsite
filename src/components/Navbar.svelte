@@ -35,7 +35,7 @@
             <a class="pl-6" href="https://github.com/reekamaharaj" target="_blank">
                 <i class="fab fa-github hover:text-gray-500"></i>
             </a>
-            <a class="pl-6" href="#" target="_blank">
+            <a class="pl-6" href="https://docs.google.com/document/d/1KY87YyA2zXU-ziE8twnXCYxniIWOZ4dZHHoLAcvMacQ/export?format=pdf" target="_blank">
                 <i class="far fa-file hover:text-gray-500"></i>
             </a>
             <a class="pl-6" href="https://www.linkedin.com/in/reekamaharaj/" target="_blank">

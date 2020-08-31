@@ -1,17 +1,20 @@
 <div class="container mx-auto flex flex-wrap py-6">
 
-    <!-- Post Section -->
-    <section class="w-full md:w-2/3 flex flex-col items-center px-3">
-
+    <section class="w-full flex flex-col items-center px-3">
         <article class="flex flex-col shadow my-4">
             <!-- Article Image -->
-            <a href="/" class="hover:opacity-75">
-                <img src="/assets/images/Personal_Banner.png" alt="Personal Banner Here">
+            <a href="/post" class="hover:opacity-75">
+                <img src="https://source.unsplash.com/collection/1346951/1000x500?sig=1" alt="ArticleImg">
             </a>
             <div class="bg-white flex flex-col justify-start p-6">
 
-                <h1 class="text-2xl font-bold pb-3">Title</h1>
-                <p class="pb-3">Posty post for things</p>
+                <a href="/post" class="text-3xl font-bold hover:text-gray-700 pb-4">Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</a>
+                <p class="text-sm pb-3 font-semibold">
+                    By Reeka Maharaj, Published on April 25th, 2020
+                </p>
+                <p class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta dui. Ut eu iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere magna..</p>
+                <a href="/post" class="uppercase text-gray-800 hover:text-black">Continue Reading <i class="fas fa-arrow-right"></i></a>
+            </div>
         </article>
 
 
@@ -26,52 +29,6 @@
             </a>
         </div>
     </section>
-
-    <!-- Sidebar Section -->
-    <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
-
-        <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">What I'm working on</p>
-            <p class="pb-2">
-
-Current project, what I'm learning/have learnt and feel like I can apply well..
-- Recommendations from teammates, former employers/managers, whatever else...
-- Skills/Interests
-            </p>
-            <a href="https://www.linkedin.com/in/reekamaharaj/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
-                LinkedIn
-            </a>
-            <a href="https://github.com/reekamaharaj" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
-                GitHub
-            </a>
-            <a href="/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
-                Resume
-            </a>
-        </div>
-
-
-        <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">Experience with</p>
-            <div class="text-5xl bg-blue-800grid grid-cols-3 gap-3">
-
-                <i class="fab fa-github-square"></i>
-                <i class="fab fa-apple"></i>
-                <i class="fab fa-bootstrap"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-node-js"></i>
-                <i class="fab fa-laravel"></i>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-php"></i>
-                <i class="fab fa-linux"></i>
-                <i class="fab fa-ubuntu"></i>
-                <i class="fab fa-microsoft"></i>
-                <i class="fab fa-apple"></i>
-                <i class="fas fa-database"></i>
-        </div>
-
-    </aside>
 
 </div>
 

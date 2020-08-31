@@ -7,6 +7,7 @@
     import Navbar from "./components/Navbar.svelte";
     import Header from "./components/Header.svelte";
     import Footer from "./components/Footer.svelte";
+    import Post from "./pages/BlogPost.svelte";
 </script>
 
 <Router>
@@ -19,6 +20,9 @@
         </Route>
         <Route path="blog">
             <Blog />
+        </Route>
+        <Route path="post">
+            <Post />
         </Route>
         <Route path="about">
             <About />

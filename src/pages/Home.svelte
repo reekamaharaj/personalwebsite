@@ -52,7 +52,7 @@ Current project, what I'm learning/have learnt and feel like I can apply well..
             <a href="https://github.com/reekamaharaj" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
                 GitHub
             </a>
-            <a href="/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
+            <a href="https://docs.google.com/document/d/1KY87YyA2zXU-ziE8twnXCYxniIWOZ4dZHHoLAcvMacQ/export?format=pdf" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
                 Resume
             </a>
         </div>
