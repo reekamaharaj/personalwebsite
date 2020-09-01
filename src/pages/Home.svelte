@@ -37,14 +37,14 @@
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5">What I'm working on</p>
-            <p class="pb-2"> Completing this site! To the minimum expectations I have for it. Plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite/blob/master/planning.md" class="no-underline hover:underline text-blue-500"> GitHub repo</a> </p>
-            <a href="https://www.linkedin.com/in/reekamaharaj/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
+            <p class="pb-2"> Completing this site! To the minimum expectations I have for it. My site plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite/blob/master/planning.md" class="no-underline hover:underline text-blue-500" target="_blank"> GitHub repo</a> </p>
+            <a href="https://www.linkedin.com/in/reekamaharaj/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4" target="_blank">
                 LinkedIn
             </a>
-            <a href="https://github.com/reekamaharaj" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
+            <a href="https://github.com/reekamaharaj" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4" target="_blank">
                 GitHub
             </a>
-            <a href="https://docs.google.com/document/d/1KY87YyA2zXU-ziE8twnXCYxniIWOZ4dZHHoLAcvMacQ/export?format=pdf" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
+            <a href="https://docs.google.com/document/d/1KY87YyA2zXU-ziE8twnXCYxniIWOZ4dZHHoLAcvMacQ/export?format=pdf" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4" target="_blank">
                 Resume
             </a>
         </div>

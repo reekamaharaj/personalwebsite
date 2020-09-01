@@ -1,7 +1,5 @@
 <nav class="w-full py-4 bg-blue-800">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between">
-
-        <div>
             <ul class="flex items-center justify-between font-bold text-sm text-white uppercase no-underline">
                 <li class="px-4 hover:text-gray-500 hover:underline">
                     <a href="/">
@@ -27,11 +25,7 @@
                         <span>About</span>
                     </a>
                 </li>
-
             </ul>
-        </div>
-
-        <div>
             <ul class="flex items-center justify-between font-bold text-white uppercase no-underline">
                 <li class="px-4 hover:text-gray-500 hover:underline">
                     <a class="text-xl" href="https://www.linkedin.com/in/reekamaharaj/" target="_blank">
@@ -50,10 +44,6 @@
                         Resume
                     </a>
                 </li>
-
             </ul>
-        </div>
-
     </div>
-
 </nav>
