@@ -2,7 +2,7 @@
     import ProjectCard from "../components/ProjectCard.svelte";
 
     import { fireStore } from "../index.js";
-import { onMount } from "svelte";
+    import { onMount } from "svelte";
     let projects = [];
 
     onMount(async () => {
@@ -12,16 +12,15 @@ import { onMount } from "svelte";
             projects.push(doc.data());
             return projects;
         });
+        projects=projects;
     });
 
 </script>
 
-<div class="flex items-center justify-center m-4">
-
+<div class="flex flex-wrap m-4">
         {#each projects as project}
             <ProjectCard {...project} />
         {/each}
-
 </div>
 
 <!-- <p>Portfolio</p>
