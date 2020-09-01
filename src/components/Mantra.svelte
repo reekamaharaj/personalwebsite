@@ -79,7 +79,7 @@
 </style>
 
 <div class="scaleable-wrapper" id="scaleable-wrapper">
-    <div class="very-specific-design" id="very-specific-design">
+    <div class="very-specific-design text-gray-300" id="very-specific-design">
         <div class="brackets">{'{       }'}</div>
         <div class="relax">Relax</div>
         <div class="itsa">it's a</div>
