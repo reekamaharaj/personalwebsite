@@ -5,7 +5,7 @@
         position: absolute;
         left: 2px;
         top: -66px;
-        font-variation-settings: "wght"100, "XHGT"574, "opsz"36;
+        font-variation-settings: "wght" 100, "XHGT" 574, "opsz" 36;
     }
 
     /* text: Relax */
@@ -15,7 +15,7 @@
         position: absolute;
         left: 123px;
         top: 143px;
-        font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+        font-variation-settings: "wght" 200, "XHGT" 353, "opsz" 36;
     }
 
     /* text: it's a */
@@ -25,7 +25,7 @@
         position: absolute;
         left: 458px;
         top: 207px;
-        font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+        font-variation-settings: "wght" 200, "XHGT" 353, "opsz" 36;
     }
 
     /* text: syntax */
@@ -35,7 +35,7 @@
         position: absolute;
         left: 349px;
         top: 256px;
-        font-variation-settings: "wght"651.5151598382544, "XHGT"500, "opsz"36;
+        font-variation-settings: "wght" 651.5151598382544, "XHGT" 500, "opsz" 36;
     }
 
     /* text: thing */
@@ -45,7 +45,7 @@
         position: absolute;
         left: 646px;
         top: 401px;
-        font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+        font-variation-settings: "wght" 200, "XHGT" 353, "opsz" 36;
     }
 
     /* text: My coding mantra */
@@ -55,7 +55,7 @@
         position: absolute;
         left: 615px;
         top: 567px;
-        font-variation-settings: "wght"200, "XHGT"353, "opsz"36;
+        font-variation-settings: "wght" 200, "XHGT" 353, "opsz" 36;
     }
 
     .very-specific-design {
@@ -74,7 +74,7 @@
         resize: both;
         position: relative;
         height: 250px;
-        transform: scale(.40);
+        transform: scale(0.4);
     }
 </style>
 

@@ -13,11 +13,12 @@
             return projects;
         });
         projects=projects;
+        console.log(projects);
     });
 
 </script>
 
-<div class="flex flex-wrap m-4">
+<div class="flex flex-wrap m-4 justify-center">
         {#each projects as project}
             <ProjectCard {...project} />
         {/each}

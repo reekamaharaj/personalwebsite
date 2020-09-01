@@ -1,13 +1,15 @@
 <script>
+    import About from "../pages/About.svelte";
     export let name;
     export let description;
     export let repoLink;
     export let deployLink;
-    export let tech;
+    export let techUsed;
     export let img;
+
 </script>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg">
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white m-4">
     <img
         class="w-full"
         src={img}
@@ -19,14 +21,14 @@
         </p>
     </div>
     <div class="px-6 py-4">
-        <a href={repoLink}>
+        <a href={repoLink} target="_blank">
             <button
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4
             rounded-full">
             Link to Code
         </button>
         </a>
-        <a href={deployLink}>
+        <a href={deployLink} target="_blank">
             <button
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4
             rounded-full">
@@ -35,13 +37,15 @@
         </a>
     </div>
 
-
     <div class="px-6 py-4">
+        {#each techUsed as techs}
         <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 my-2 text-sm
-            font-semibold text-gray-700 mr-2">
-            {tech}
-        </span>
+        class="inline-block bg-gray-200 rounded-full px-3 py-1 my-2 text-sm
+        font-semibold text-gray-700 mr-2">
+        {techs}
+    </span>
+        {/each}
+
 
     </div>
 </div>
