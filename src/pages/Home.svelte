@@ -5,25 +5,22 @@
 
         <article class="flex flex-col shadow my-4">
             <!-- Article Image -->
-            <a href="/" class="hover:opacity-75">
-                <img src="/assets/images/Personal_Banner.png" alt="Personal Banner Here">
-            </a>
             <div class="bg-white flex flex-col justify-start p-6">
 
-                <h1 class="text-2xl font-bold pb-3">Hi! I'm Reeka!</h1>
-                <p class="pb-3">I had a short career in Civil Engineering before I decided to take a step back
-                    to reevaluate my life goals. I took some time to volunteer with nonprofits,
-                    substitute for my public school district, become a support group leader and
-                    start a small art business. Through each option, there was a connecting factor.
-                    The importance of software development. I saw gaps that could be filled with the
-                    right software application. I got tired of saying, "if only someone would
-                    build..." Why wait for someone else to build it? I could do that, I just needed
-                    to learn how. So I started learning on my own but soon realized that I needed
-                    some guidance. With so much out there, I didn't know what I should concentrate
-                    on. I enrolled and completed the UT Austin Full Stack Web Development program
-                    and am ready to start my journey as a junior web developer. Other things about
-                    me. I enjoy to draw and have a small art business. More indepth
-                    description/introducation Civil Engineering career Reason for the career shift</p>
+                <h1 class="text-2xl font-bold pb-3">Thanks for visiting my site!</h1>
+                <p class="px-6 pb-3">
+                    I do <b>A LOT</b> of things. Sometimes they seem unconnected and random to people who don't know me. However, everything I do, describes who I am and what I want my life to reflect about me.
+                </p>
+                <br>
+                <ul> <h1 class="text-xl font-bold">I am...</h1>
+                    <li class="px-6">A junior software developer</li>
+                    <li class="px-6">A Mental Health Advocate</li>
+                    <li class="px-6">A Cat Rescue Advocate</li>
+                    <li class="px-6">An Artist</li>
+                    <li class="px-6">An Amateur Science Communicator</li>
+                    <li class="px-6">Constantly learning</li>
+                    <li class="px-6">A goof</li>
+                </ul>
         </article>
         <article class="flex flex-col shadow my-4">
 
@@ -40,12 +37,7 @@
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5">What I'm working on</p>
-            <p class="pb-2">
-
-Current project, what I'm learning/have learnt and feel like I can apply well..
-- Recommendations from teammates, former employers/managers, whatever else...
-- Skills/Interests
-            </p>
+            <p class="pb-2"> Completing this site! To the minimum expectations I have for it. Plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite/blob/master/planning.md" class="no-underline hover:underline text-blue-500"> GitHub repo</a> </p>
             <a href="https://www.linkedin.com/in/reekamaharaj/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
                 LinkedIn
             </a>
