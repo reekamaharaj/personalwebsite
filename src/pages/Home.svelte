@@ -11,7 +11,7 @@
                 <p class="px-6 pb-3">
                     I do <b>A LOT</b> of things. Sometimes they seem unconnected and random to people who don't know me. However, everything I do, describes who I am and what I want my life to reflect about me.
                 </p>
-                <br>
+
                 <ul> <h1 class="text-xl font-bold">I am...</h1>
                     <li class="px-6">A junior software developer</li>
                     <li class="px-6">A Mental Health Advocate</li>
@@ -22,13 +22,13 @@
                     <li class="px-6">A goof</li>
                 </ul>
         </article>
-        <article class="flex flex-col shadow my-4">
+        <!-- <article class="flex flex-col shadow my-4">
 
             <div class="bg-white flex flex-col justify-start p-6">
 
                 <h1 class="text-2xl font-bold pb-3">Testemonials</h1>
                 <p class="pb-3">Maybe a side scroller with </p>
-        </article>
+        </article> -->
 
     </section>
 
@@ -37,7 +37,7 @@
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5">What I'm working on</p>
-            <p class="pb-2"> Completing this site! To the minimum expectations I have for it. My site plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite/blob/master/planning.md" class="no-underline hover:underline text-blue-500" target="_blank"> GitHub repo</a> </p>
+            <p class="pb-2"> Completing this site! To the minimum expectations I have for it. My site plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite/blob/master/planning.md" class="no-underline hover:underline text-blue-500" target="_blank"> GitHub repo</a>. Need to write my first blog post. </p>
             <a href="https://www.linkedin.com/in/reekamaharaj/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4" target="_blank">
                 LinkedIn
             </a>
@@ -48,7 +48,7 @@
                 Resume
             </a>
         </div>
-
+<!--
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5">Experience with</p>
@@ -69,7 +69,7 @@
                 <i class="fab fa-microsoft"></i>
                 <i class="fab fa-apple"></i>
                 <i class="fas fa-database"></i>
-        </div>
+        </div> -->
 
     </aside>
 
