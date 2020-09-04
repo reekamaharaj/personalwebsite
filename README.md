@@ -33,17 +33,17 @@ New personal website. Blog. Software Portfolio. Personal hub to put all the thin
     - Keywords
 ---
 ## Pages
-[x] HomePage
-    [x] LinkedIn
-    [x] GitHub Profile
-    [x] Resume PDF
-    [x] Brief introduction
-    [x] Something to display coding accopishment... either a project, current project, what I'm learning/have learnt and feel like I can apply well
+- [x] HomePage
+    - [x] LinkedIn
+    - [x] GitHub Profile
+    - [x] Resume PDF
+    - [x] Brief introduction
+    - [x] Something to display coding accopishment... either a project, current project, what I'm learning/have learnt and feel like I can apply well
     - Recommendations from teammates, former employers/managers, whatever else...
     - Skills/Interests
-[x] Portfolio Page
-    [x] Completed projects
-        [x] Description of the app for user
+- [x] Portfolio Page
+    - [x] Completed projects
+        - [x] Description of the app for user
             - Why it exists
             - Who its for
             - What problem does it solve
@@ -55,13 +55,13 @@ New personal website. Blog. Software Portfolio. Personal hub to put all the thin
             - Concepts used
             - Project management used
             - Adaptations that were needed
-[x] Blog (coding related)
+- [x] Blog (coding related)
     - What I'm learning
     - How I am learning
     - How I stumbled, but how it helped
     - Learning process
     - Notes while building something new
-[x] About Me
+- [x] About Me
     - More indepth description/introducation
     - Civil Engineering career
         - Reason for the career shift
@@ -70,13 +70,13 @@ New personal website. Blog. Software Portfolio. Personal hub to put all the thin
     - Doodlejutsu
 
 ### All Pages Should Have
-    [x] Easy access to links to github, linkedin, resume pdf
-    [x] Email/Contact info
+    - [x] Easy access to links to github, linkedin, resume pdf
+    - [x] Email/Contact info
 ---
 
 ### Extras
     - Testimonials/Recommendations (Banner)
-    [x] What I am currently working on (Banner)
+    - [x] What I am currently working on (Banner)
     - Notes
         - Personal notes
         - Personal understanding
@@ -85,7 +85,7 @@ New personal website. Blog. Software Portfolio. Personal hub to put all the thin
         - Airtable resource list that is searchable by category
     - Random quotes displayed (Banner)
     - Open Source contributions?
-    [x] Fontplayground HTMl and CSS for coding mantra
+    - [x] Fontplayground HTMl and CSS for coding mantra
     - I'll get there
     - Doodlejutsu
 
