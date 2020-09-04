@@ -1,5 +1,5 @@
 <div class="text-center pt-16 md:pt-32">
-    <p class="text-sm md:text-base text-teal-500 font-bold">04 SEPTEMBER 2020 <span class="text-gray-900">/</span>
+    <p class="text-sm md:text-base text-blue-500 font-bold">04 SEPTEMBER 2020 <span class="text-gray-900">/</span>
         CAREER CHANGE</p>
     <h1 class="font-bold break-normal text-3xl md:text-5xl">Why software development?</h1>
 </div>
@@ -18,7 +18,7 @@
                 <p class="pb-3">
                     Seems like a small question; but it really is a huge question. The decision came from multiple angles. First, the concern for my career path. I love Civil Engineering and enjoyed the work, but looking at my future I wasn't sure if it fit the life I wanted. If you don't know about Civil Engineering, that's understandable. Here's what the Civil Engineering Wikipedia page has.
                 </p>
-                <blockquote class="border-l-4 border-teal-500 italic my-8 pl-8 md:pl-12">
+                <blockquote class="border-l-4 border-blue-500 italic my-8 pl-8 md:pl-12">
                     <b>Civil engineering</b> is a professional <b>engineering</b> discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.
                 </blockquote>
                 <p class="py-6">
@@ -58,6 +58,6 @@
                     So. That's why software development :D.
                 </p>
             </div>
-            
+
         </div>
     </div>

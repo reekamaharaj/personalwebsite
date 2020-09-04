@@ -18,7 +18,7 @@
 
 </script>
 
-<div class="flex flex-wrap m-4 justify-center">
+<div class="flex flex-wrap -mt-32 m-4 justify-center">
         {#each projects as project}
             <ProjectCard {...project} />
         {/each}

@@ -1,4 +1,4 @@
-<div class="container mx-auto flex flex-wrap py-6">
+<div class="container mx-auto flex flex-wrap py-6 -mt-32">
     <section class="w-full flex flex-col items-center px-3">
         <article class="flex flex-col shadow my-4">
             <!-- Article Image -->

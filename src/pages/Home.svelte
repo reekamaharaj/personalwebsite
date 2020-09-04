@@ -1,4 +1,4 @@
-<div class="container mx-auto flex flex-wrap py-6">
+<div class="container mx-auto flex flex-wrap py-6 -mt-32">
 
     <!-- Post Section -->
     <section class="w-full md:w-2/3 flex flex-col items-center px-3">
