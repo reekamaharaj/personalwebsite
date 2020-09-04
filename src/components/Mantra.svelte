@@ -76,6 +76,13 @@
         height: 250px;
         transform: scale(0.4);
     }
+    /* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .scaleable-wrapper {
+        transform: scale(0.3);
+    }
+}
 </style>
 
 <div class="scaleable-wrapper" id="scaleable-wrapper">

@@ -3,7 +3,7 @@
         class="w-full container mx-auto flex flex-wrap items-center
         justify-center text-white">
         <ul
-            class="flex items-center justify-center font-bold text-white
+            class="flex flex-wrap items-center justify-center font-bold text-white
             uppercase no-underline">
             <li class="px-4 hover:text-gray-500 hover:underline">
                 <a

@@ -36,8 +36,12 @@
     <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">What I'm working on</p>
-            <p class="pb-2"> Completing this site! To the minimum expectations I have for it. My site plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite/blob/master/planning.md" class="no-underline hover:underline text-blue-500" target="_blank"> GitHub repo</a>. Need to write my first blog post. </p>
+            <p class="text-xl font-semibold pb-5 text-center">What I'm working on</p>
+            <p class="text-lg font-semibold pb-2">This site:</p>
+            <p class="pb-2"> Continue work on improving this site. Next steps will be to organize the portfolio page and add a search option based on tech used. Add a loading spinner. May want to rewrite some of the content. Need to add avatar and banner. My site plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite" class="no-underline hover:underline text-blue-500" target="_blank"> GitHub repo</a>.
+            </p>
+            <p class="text-lg font-semibold pb-2">Educatable:</p>
+            <p class="pb-2">Docker set up for MongoDB and Node. Then work can continue with the admin features for the app.</p>
             <a href="https://www.linkedin.com/in/reekamaharaj/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4" target="_blank">
                 LinkedIn
             </a>
