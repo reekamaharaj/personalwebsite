@@ -14,21 +14,24 @@
 
     <div class="h-64">
         <Navbar />
-        <Header />
+
         <Route path="portfolio">
+            <Header />
             <Portfolio />
         </Route>
         <Route path="blog">
+            <Header />
             <Blog />
         </Route>
         <Route path="post">
             <Post />
         </Route>
         <Route path="about">
+            <Header />
             <About />
         </Route>
         <Route>
-            <!-- No path === Default Page (404? Homepage? Up to you.) -->
+            <Header />
             <Home />
         </Route>
         <Footer />
