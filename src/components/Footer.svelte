@@ -1,9 +1,9 @@
-<footer class="w-full py-4 bg-blue-800 text-white item-center">
+<footer class="w-full py-4 bg-blue-800 ">
     <div
         class="w-full container mx-auto flex flex-wrap items-center
-        justify-center">
+        justify-center text-white">
         <ul
-            class="flex items-center justify-between font-bold text-white
+            class="flex items-center justify-center font-bold text-white
             uppercase no-underline">
             <li class="px-4 hover:text-gray-500 hover:underline">
                 <a
@@ -32,9 +32,7 @@
             </li>
             |
             <li class="px-4 hover:text-gray-500 hover:underline text-sm">
-                <div class="px-4 hover:text-gray-500 hover:underline text-sm uppercase ">
-                    Email: reekamaharaj@gmail.com
-                </div>
+                Email: reekamaharaj@gmail.com
             </li>
 
         </ul>
