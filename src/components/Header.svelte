@@ -1,6 +1,5 @@
 <script>
     import Mantra from "./Mantra.svelte";
-
     import Navbar from "./Navbar.svelte";
 </script>
 

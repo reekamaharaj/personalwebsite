@@ -38,10 +38,25 @@
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5 text-center">What I'm working on</p>
             <p class="text-lg font-semibold pb-2">This site:</p>
-            <p class="pb-2"> Continue work on improving this site. Next steps will be to organize the portfolio page and add a search option based on tech used. Add a loading spinner. May want to rewrite some of the content. Need to add avatar and banner. My site plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite" class="no-underline hover:underline text-blue-500" target="_blank"> GitHub repo</a>.
-            </p>
+
+                <ul class="px-6 pb-2 list-disc">
+                    <li>Completed: Created a Collection to store past "what I'm working on" text.</li>
+                    <li>Completed: Created a Collection to store blog posts</li>
+                    <li>Improve portfolio page. Add a highlighted section for important projects. Add a loading spinner while projects load. Add a search by tech option to filter projects.</li>
+                    <li>Rewrite site content. Maybe.</li>
+                    <li>Add avatar and banner.</li>
+                    <li>My site plan can be found on the <a href="https://github.com/reekamaharaj/personalwebsite" class="no-underline hover:underline text-blue-500" target="_blank"> GitHub repo</a>.</li>
+                </ul>
+
             <p class="text-lg font-semibold pb-2">Educatable:</p>
-            <p class="pb-2">Docker set up for MongoDB and Node. Then work can continue with the admin features for the app.</p>
+                <ul class="px-6 pb-2 list-disc">
+                    <li>
+                        Set up Docker
+                    </li>
+                    <li>
+                        Review code, what is already completed, make a plan for continuing development.
+                    </li>
+                </ul>
             <a href="https://www.linkedin.com/in/reekamaharaj/" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4" target="_blank">
                 LinkedIn
             </a>
