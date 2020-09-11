@@ -7,7 +7,8 @@
     import Navbar from "./components/Navbar.svelte";
     import Header from "./components/Header.svelte";
     import Footer from "./components/Footer.svelte";
-    import Post from "./pages/BlogPost.svelte";
+    import Post1 from "./pages/BlogPost1.svelte";
+    import Post2 from "./pages/BlogPost2.svelte";
 </script>
 
 <Router>
@@ -23,8 +24,11 @@
             <Header />
             <Blog />
         </Route>
-        <Route path="post">
-            <Post />
+        <Route path="whysoftwaredevelopment">
+            <Post1 />
+        </Route>
+        <Route path="whybootcamp">
+            <Post2 />
         </Route>
         <Route path="about">
             <Header />
