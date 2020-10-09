@@ -6,7 +6,9 @@
         <article class="flex flex-col shadow my-4">
             <!-- Article Image -->
             <div class="bg-white flex flex-col justify-start p-6">
-
+                <p class="text-xl font-bold pb-5  text-red-600">
+                    Important note: I recently got COVID and have been away from everything while I recovered. But I am doing well now and I'm finally back on track to get things moving forward!
+                </p>
                 <h1 class="text-2xl font-bold pb-3">
                     Thanks for visiting my site!
                 </h1>
@@ -72,17 +74,14 @@
     <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
+
             <p class="text-xl font-semibold pb-5 text-center">
                 What I'm working on
             </p>
+
             <p class="text-lg font-semibold pb-2">This site:</p>
 
             <ul class="px-6 pb-2 list-disc">
-                <li>
-                    Completed: Created a Collection to store past "what I'm
-                    working on" text.
-                </li>
-                <li>Completed: Created a Collection to store blog posts</li>
                 <li>
                     Improve portfolio page. Add a highlighted section for
                     important projects. Add a loading spinner while projects
@@ -90,6 +89,7 @@
                 </li>
                 <li>Rewrite site content. Maybe.</li>
                 <li>Add avatar and banner.</li>
+                <li>New blog post</li>
                 <li>
                     My site plan can be found on the
                     <a
