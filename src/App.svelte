@@ -9,6 +9,8 @@
     import Footer from "./components/Footer.svelte";
     import Post1 from "./pages/BlogPost1.svelte";
     import Post2 from "./pages/BlogPost2.svelte";
+    import Resourcess from "./pages/Resources.svelte";
+import Resources from "./pages/Resources.svelte";
 </script>
 
 <Router>
@@ -33,6 +35,10 @@
         <Route path="about">
             <Header />
             <About />
+        </Route>
+        <Route path="resources">
+            <Header />
+            <Resources />
         </Route>
         <Route>
             <Header />

@@ -12,9 +12,9 @@
                 <a href="/whysoftwaredevelopment" class="uppercase text-gray-800 hover:text-black">Continue Reading <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
-        <article class="flex flex-col shadow my-4 max-w-xl">
+        <!-- <article class="flex flex-col shadow my-4 max-w-xl">
             <!-- Article Image -->
-            <a href="/whybootcamp" class="flex flex-wrap no-underline hover:no-underline">
+            <!-- <a href="/whybootcamp" class="flex flex-wrap no-underline hover:no-underline">
                 <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="ArticleImg">
             </a>
             <div class="bg-white flex flex-col justify-start p-6">
@@ -23,7 +23,7 @@
                 <p class="pb-6">ExcerptHere..</p>
                 <a href="/whybootcamp" class="uppercase text-gray-800 hover:text-black">Continue Reading <i class="fas fa-arrow-right"></i></a>
             </div>
-        </article>
+        </article> -->
 
 
 <!--

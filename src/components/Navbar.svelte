@@ -25,6 +25,12 @@
                         <span>About</span>
                     </a>
                 </li>
+                |
+                <li class="px-4 hover:text-gray-500 hover:underline">
+                    <a href="/resources">
+                        <span>Resources</span>
+                    </a>
+                </li>
             </ul>
             <ul class="flex items-center justify-between font-bold text-white uppercase no-underline">
                 <li class="px-4 hover:text-gray-500 hover:underline">

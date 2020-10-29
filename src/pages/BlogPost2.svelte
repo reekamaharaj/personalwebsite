@@ -4,7 +4,7 @@
         <span class="text-gray-900">/</span>
         CAREER CHANGE
     </p>
-    <h1 class="font-bold break-normal text-3xl md:text-5xl">Why bootcamp?</h1>
+    <h1 class="font-bold break-normal text-3xl md:text-5xl">Docker</h1>
 </div>
 <div
     class="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded"
