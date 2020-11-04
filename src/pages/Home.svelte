@@ -6,9 +6,7 @@
         <article class="flex flex-col shadow my-4">
             <!-- Article Image -->
             <div class="bg-white flex flex-col justify-start p-6">
-                <p class="text-xl font-bold pb-5  text-red-600">
-                    Important note: I recently got COVID and have been away from everything while I recovered. But I am doing well now and I'm finally back on track to get things moving forward!
-                </p>
+
                 <h1 class="text-2xl font-bold pb-3">
                     Thanks for visiting my site!
                 </h1>

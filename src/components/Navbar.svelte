@@ -25,12 +25,7 @@
                         <span>About</span>
                     </a>
                 </li>
-                |
-                <li class="px-4 hover:text-gray-500 hover:underline">
-                    <a href="/resources">
-                        <span>Resources</span>
-                    </a>
-                </li>
+
             </ul>
             <ul class="flex items-center justify-between font-bold text-white uppercase no-underline">
                 <li class="px-4 hover:text-gray-500 hover:underline">
@@ -48,6 +43,12 @@
                 <li class="px-4 hover:text-gray-500 hover:underline text-sm">
                     <a href="https://docs.google.com/document/d/1KY87YyA2zXU-ziE8twnXCYxniIWOZ4dZHHoLAcvMacQ/export?format=pdf" target="_blank">
                         Resume
+                    </a>
+                </li>
+                |
+                <li class="px-4 hover:text-gray-500 hover:underline">
+                    <a href="/resources">
+                        <span>Resources</span>
                     </a>
                 </li>
             </ul>
