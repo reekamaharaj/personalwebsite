@@ -1,11 +1,13 @@
 <script>
-    import About from "../pages/About.svelte";
     export let name;
     export let description;
     export let repoLink;
-    export let deployLink;
+    export let deployedLink;
     export let techUsed;
     export let img;
+    export let id;
+    export let role;
+
 
 </script>
 
@@ -28,7 +30,7 @@
             Link to Code
         </button>
         </a>
-        <a href={deployLink} target="_blank">
+        <a href={deployedLink} target="_blank">
             <button
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4
             rounded-full">

@@ -13,7 +13,6 @@
             return projects;
         });
         projects=projects;
-        console.log(projects);
     });
 
 </script>
