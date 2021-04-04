@@ -1,3 +1,4 @@
+Did this commit get pushed?
 # Personal Site
 New personal website. Blog. Software Portfolio. Personal hub to put all the things currently in google docs.
 
