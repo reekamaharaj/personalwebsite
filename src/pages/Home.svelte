@@ -58,13 +58,21 @@
 
             </div>
         </article>
-        <!-- <article class="flex flex-col shadow my-4">
+        <article class="flex flex-col shadow my-4">
 
             <div class="bg-white flex flex-col justify-start p-6">
 
-                <h1 class="text-2xl font-bold pb-3">Testemonials</h1>
-                <p class="pb-3">Maybe a side scroller with </p>
-        </article> -->
+                <h1 class="text-2xl font-bold pb-3">Are you learning to code?</h1>
+                <p class="pb-3">Check out the resource page. I'm keeping an airtable with all the bookmarks I have. I had folders and folders of bookmarks in my broswer and could never find what I wanted when I wanted it... so this airtable was an attempt to organize that. :3 </p>
+                <a
+                        href="/resources"
+                        class="bg-blue-800 text-white font-bold text-sm
+                        uppercase rounded hover:bg-blue-700 flex items-center
+                        justify-center px-6 py-2 m-4"
+                        target="_blank">
+                        Airtable of Resources
+                    </a>
+        </article>
 
     </section>
 
